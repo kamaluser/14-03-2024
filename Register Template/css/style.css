@@ -1,0 +1,49 @@
+body {
+    background-color: #5896f3; 
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Metropolis", sans-serif;
+}
+
+.form-box {
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.form-box .title {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px;
+    background-color: #f8f8f9;
+}
+
+.form-box form {
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+
+button {
+    width: 100%;
+}
+
+.form-box .goto-login {
+    font-size: 16px;
+    padding: 14px;
+    background-color: #f8f8f9;
+}
+
+.form-box .goto-login a {
+    text-decoration: none;
+    color: #1763f2;
+    cursor: pointer;
+}
+
+.form-box .goto-login a:hover{
+    text-decoration: underline;
+    color: rgb(11, 11, 141);
+}
